@@ -90,7 +90,20 @@
      2.目的:全局共享一份资源,节省不必要的内存开销.
      */
     
-#warning 12.
+#warning 12.响应者链
+    /**
+     1. UIResponder有一个nextResponder属性，通过该属性可以组成一个响应者链
+        事件或者消息在其路径上进行传递
+     2. 如果UIResponder没有处理传给它的事件，会将未处理的消息转给自己的nextResponder
+     */
+    
+#warning 13.frame和bounds的区别
+    /**
+     1.frame以父控件的左上角为坐标原点
+     2.bounds以控件本身的左上角为坐标原点
+     */
+    
+
     
     
 }
