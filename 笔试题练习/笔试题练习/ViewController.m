@@ -103,6 +103,33 @@
      2.bounds以控件本身的左上角为坐标原点
      */
     
+#warning 14.method和selector的区别
+    /**
+     通过一个selector可以找到方法地址，进而调用一个方法
+     */
+    
+#warning 15.NSOperation queue
+    /**
+     1.用来存放NSOperation对象队列，可以用来异步执行一些操作
+     2.一般可以用在网络请求等耗时操作
+     */
+    
+#warning 16.UITabelView代理方法和数据源方法
+    /**
+     代理方法：返回tableview每行的高度、监听tableview每行的选中
+     数据源方法：返回tableview数据的组数和行数、每行显示什么数据
+     */
+    
+#warning 17.自动释放池
+    /**
+     系统会默认会不定时创建和销毁自动释放池
+     */
+    
+#warning 18.
+    
+    
+    
+    
 
     
     
