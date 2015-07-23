@@ -125,7 +125,42 @@
      系统会默认会不定时创建和销毁自动释放池
      */
     
-#warning 18.
+#warning 18.数据持久化的方式
+    /**
+     1. 属性列表（NSUserDefault）
+     2. plist文件
+     3. 对象归档(NSKeyedArchier、NSCoding)
+     4. SQLite
+     5. CoreDate
+     */
+    
+#warning 19.
+    /**
+     NSManagedObject是Core Data 中的实体对象
+     */
+    
+#warning 20. predicate谓词
+    /**
+     谓词：可以以一定条件来过滤数组字典等集合数据，也能用在CoreData的数据中查询
+     */
+    
+#warning 21. const含义
+    /**
+     const修饰的数据类型是指常类型，常类型的变量或对象的值是不能被更新的
+     例如：
+     const int a  和 int const a中a是一个常整型数不能改变
+     const int *a 和 int const *a中的a是指向常整型的指针，指针可以变，指向的常整型不可以变
+     int *const a 指a是一个指向整型数的常指针，指针不可以变
+     int const *const a 指指针和指向的内容都不能修改
+     */
+    
+    
+#warning 22. static作用
+    /**
+     1. static修饰的函数是一个内部函数，修饰的全部变量是一个内部变量，只能在本文件中使用
+        其他文件不能使用
+     2. static修饰的局部变量只能初始化一次，并且在程序退出时才会回收内存
+     */
     
     
     
